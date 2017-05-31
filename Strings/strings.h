@@ -1,0 +1,24 @@
+void uLongToStr (unsigned long Value, char * String);
+void uIntToStr (unsigned int Value, char * String);
+void sLongToStr (signed long Value, char * String);
+void uCharToStr (unsigned char Value, char * String);
+void sCharToStr (signed char Value, char * String);
+void FillString (char * Data, char * String);
+void ClearString (char * String, char Len, char Data);
+void StringMoveLeft (char * String, char Len);
+void StringMoveRight (char * String, char Len);
+unsigned char StringLen (char * String);
+void ValueToStringHEX_Byte (unsigned char Value, char * String);
+void ValueToStringHEX_Word (unsigned int Value, char * String);
+void ValueToStringHEX_Long (unsigned long Value, char * String);
+signed char uCharTosChar (unsigned char Value);
+signed int uIntTosInt (unsigned int Value);
+signed long uLongTosLong (unsigned long Value);
+unsigned char sCharTouChar (signed char Value);
+void FloatToString (float Value, char * String, char Accuracy);
+void StringReplaceChar (char * String, char Char1, char Char2);
+unsigned long MOD (signed long Value);
+int intToStr(int x, char str[], int d);
+void ftoa(float n, char *res, int afterpoint);
+void reverse(char *str, int len);
+
